@@ -9,6 +9,50 @@ package blackjacks;
  *
  * @author Wesley
  */
-public class Deck {
-    //this is Deck Class
+public Deck(){
+
+        
+
+
+
+
+
+
+
+        }
+
+        
+
+        this.shuffle();
+
+    }
+
+    
+
+    public Card deal(){
+
+        return deck.remove(0);
+
+    }
+
+    
+
+    private void shuffle(){
+
+
+
+    }
+
+    
+
+    public String toString(){
+
+        
+
+    }
+
+    
+
 }
+    //this is Deck Class
+
