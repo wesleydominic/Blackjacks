@@ -10,5 +10,16 @@ package blackjacks;
  * @author Wesley
  */
 public class Card {
+    
+    public String rank;
+    public String suit;
+ 
+public int getValue(){
+     int result = 0;
+     return result;
+}
+public String toString(){
+        return this.rank + " of " + this.suit ;
+    }
     //this is my Card class
 }
