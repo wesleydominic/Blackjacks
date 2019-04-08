@@ -7,12 +7,17 @@ package blackjacks;
 
 /**
  *
- * @author Wesley
+ * @author dhruvil
  */
 public class Card {
     
     public String rank;
     public String suit;
+    
+    
+    public static final String [] SUITS = {"Spades","Clubs","Diamonds","Hearts"};
+     public static final String [] RANKS = {"Ace","Two","Three","Four","Five","Six",
+                                            "Seven","Eight","Nine","Ten","Jack","Queen","King"};
  
 public int getValue(){
      int result = 0;
