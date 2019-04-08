@@ -7,7 +7,7 @@ package blackjacks;
 
 /**
  *
- * @author Wesley
+ * @author Ayodeji
  */
 public class Blackjacks {
 
