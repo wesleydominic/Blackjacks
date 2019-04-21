@@ -15,34 +15,28 @@ import java.util.Collections;
 public class Deck {
 
     private ArrayList<Card> deck = new ArrayList<Card>();
-
-    public Deck() {
-        for (int i = 0; i < 13; i++) {
-            for (int j = 0; j < 4; j++) {
-
-                deck.add(new Card());
-
+    
+    public Deck(){
+        for(int i = 0; i < 13; i++){
+            for (int j = 0; j < 4; j++){
+                deck.add(new Card(i,j));
             }
         }
-
+        
         this.shuffle();
     }
-
-    public Card deal() {
-
+    
+    public Card deal(){
         return deck.remove(0);
-
     }
-
-    private void shuffle() {
+    
+    private void shuffle(){
         Collections.shuffle(deck);
     }
-
-    public String toString() {
+    
+    public String toString(){
         return deck.toString();
-
     }
+    
 }
-
-//this is Deck Class
-
+//deck class
