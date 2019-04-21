@@ -12,9 +12,15 @@ package blackjacks;
 public class Chip {
     private int total = 200;
     private int betAmount;
-public Chip() {
+
+    public Chip() {
+
     }
+
     public void setChip(int chip) {
+
     }
-    //This is my chip class
+
 }
+//the chip class
+   
